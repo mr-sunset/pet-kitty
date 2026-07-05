@@ -13,6 +13,7 @@ body {
 #kitty {
     font-size: 150px;
     user-select: none;
+    touch-action: manipulation;
     transition: all 0.12s ease;
 }
 
