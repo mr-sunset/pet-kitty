@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='70' height='70'><text y='60' font-size='60'>🤚</text></svg>"), auto;
+}
+
+#kitty {
+    font-size: 150px;
+    user-select: none;
+    transition: all 0.12s ease;
+}
+
+#kitty:active {
+    transform: scale(0.95);
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: rgb(20, 20, 20);
+        color: white;
+    }
+}
